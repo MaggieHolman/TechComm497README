@@ -6,9 +6,8 @@ Rooted is a Python + Flask web application designed to help immigrants discover 
 
 **Who this is for**
 - Immigrants and newcomers looking to build community
-- People starting jobs in a new community
+- People starting jobs in a new area
 - International Students
-- People new to an area
 
 ## Table of Contents
 - [Quickstart](#quickstart)
@@ -44,12 +43,6 @@ python app.py
 
 4. Visit `http://127.0.0.1:5000` — you'll be redirected to the login page. Use the signup page to create an account.
 
-Notes and next steps:
-- The current auth uses Flask sessions with `session['user_id']`. For production, consider Flask-Login or JWTs.
-- Passwords are hashed using Werkzeug's `generate_password_hash`.
-- By default the DB is SQLite; supply `DATABASE_URL` to use Postgres (e.g. `postgresql://user:pass@host/db`).
-- The `signup` handler saves uploaded profile images to `UPLOAD_FOLDER`.
-
 ## Features
 - User signup and login with secure password hashing
 - Session-based authentication
@@ -81,9 +74,6 @@ At a high level:
 **Why Flask instead of Django?**  
 Flask allowed us to build and iterate quickly with minimal overhead.
 
-**Is this production-ready?**  
-No. This project is a prototype intended for learning and demonstration.
-
 **Can this use Postgres instead of SQLite?**  
 Yes. Set `DATABASE_URL` to a Postgres connection string.
 
@@ -92,6 +82,5 @@ Using Flask sessions with securely hashed passwords.
 
 ## Future Work
 - Recommendation system for events
-- Location-based filtering
 - OAuth login
 - Improved accessibility and localization
