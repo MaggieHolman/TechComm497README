@@ -58,11 +58,6 @@ Notes and next steps:
 - By default the DB is SQLite; supply `DATABASE_URL` to use Postgres (e.g. `postgresql://user:pass@host/db`).
 - The `signup` handler saves uploaded profile images to `UPLOAD_FOLDER`.
 
-📍 **GIF #1 goes right after this section** (see GIF section below).
-
----
-
-```md
 ## Features
 - User signup and login with secure password hashing
 - Session-based authentication
