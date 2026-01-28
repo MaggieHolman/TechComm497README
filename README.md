@@ -53,7 +53,7 @@ python app.py
 
 Rooted is built as a server-rendered Flask application with session-based authentication and a relational database backend.
 
-![Rooted architecture diagram showing Flask app, database, and user interactions](architecture-diagram.png)
+![Rooted architecture diagram showing Flask app, database, and user interactions](architecture_diagram.png)
 
 At a high level:
 - Users interact through a browser using HTML forms
