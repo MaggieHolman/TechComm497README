@@ -49,6 +49,8 @@ python app.py
 - Profile image uploads
 - Event discovery based on user interests (planned/partial)
 
+![Rooted gif showing map and currated feed](mapgif.gif)
+
 ## Architecture
 
 Rooted is built as a server-rendered Flask application with session-based authentication and a relational database backend.
@@ -68,6 +70,7 @@ At a high level:
 3. Upload a profile image
 4. Browse events related to your interests
 
+![Rooted gif showing how to login and the dashboard](dashboard.gif)
 
 ## FAQ
 
