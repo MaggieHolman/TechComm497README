@@ -18,15 +18,7 @@ Rooted is a Python + Flask web application designed to help immigrants discover 
 - [FAQ](#faq)
 - [Future Work](#future-work)
 
-
-Files added:
-- `app.py` — application factory and minimal routes that map to your existing templates.
-- `auth.py` — blueprint implementing `/signup` and `/login` endpoints using sessions.
-- `models.py` — SQLAlchemy `User` model with secure password hashing.
-- `config.py` — configuration using environment variables (`DATABASE_URL`, `SECRET_KEY`, `UPLOAD_FOLDER`).
-- `requirements.txt` — dependencies.
-
-## Quick start (macOS / zsh):
+## Quick start
 
 1. Create a virtual environment and install dependencies:
 
