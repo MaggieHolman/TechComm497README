@@ -1,8 +1,8 @@
 # 🌱 Rooted
 
-Helping immigrants connect with local communities through shared interests and events.
+Rooted is a Python + Flask web application prototype designed to help immigrants discover local events and community opportunities based on their interests and location. The goal is to reduce social isolation by making it easier to meet people and feel connected in a new place.
 
-Rooted is a Python + Flask web application designed to help immigrants discover local events and community opportunities based on their interests and location. The goal is to reduce social isolation by making it easier to meet people and feel connected in a new place.
+Note: This project is currently a partially implemented prototype intended to demonstrate core functionality
 
 **Who this is for**
 - Immigrants and newcomers looking to build community
