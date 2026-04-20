@@ -17,7 +17,7 @@ Note: This project is currently a partially implemented prototype intended to de
 - [FAQ](#faq)
 - [Future Work](#future-work)
 
-## Quick start
+## Developer Setup (Quickstart)
 
 1. Create a virtual environment and install dependencies:
 
